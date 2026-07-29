@@ -1,7 +1,13 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+<<<<<<< HEAD
 import DairyManagement from "../assets/DairyManagement.png";
 import VotingApp from "../assets/VotingApp.png";
 import YouTube from "../assets/YouTube.png";
+=======
+import Dairy from "../assets/Dairy Management.png";
+import VotingApp from "../assets/Voting App.png";
+import Youtube from "../assets/YouTube.png";
+>>>>>>> a08e8ee0a08eff653e2be8e4888e00ff2b79b3c2
 
 function Projects() {
   const projects = [
@@ -24,7 +30,11 @@ function Projects() {
       description:
         "A responsive YouTube UI clone developed using React and Bootstrap.",
       tech: ["React", "Bootstrap", "API"],
+<<<<<<< HEAD
       image: YouTube,
+=======
+      image: Youtube,
+>>>>>>> a08e8ee0a08eff653e2be8e4888e00ff2b79b3c2
     },
   ];
 
