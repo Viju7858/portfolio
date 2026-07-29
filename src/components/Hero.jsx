@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import VijayMane from "../assets/VijayMane.jpeg"
 
 function Hero() {
   return (
@@ -45,7 +46,7 @@ function Hero() {
           <Col lg={6} className="text-center mt-5 mt-lg-0">
 
             <Image
-              src="https://i.pravatar.cc/350"
+              src={VijayMane}
               roundedCircle
               fluid
               className="shadow-lg border border-5 border-info"
