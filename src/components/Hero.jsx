@@ -34,7 +34,7 @@ function Hero() {
               Download Resume
             </Button>
 
-            <Button variant="outline-light" size="lg" className="mt-3">
+            <Button variant="outline-light" size="lg" className="mt-3"  href="#contact">
               Contact Me
             </Button>
           </Col>
