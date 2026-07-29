@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
-import VijayMane from "../assets/VijayMane.jpeg"
+import VijayMane from "../assets/VijayMane.jpeg";
 
 function Hero() {
   return (
@@ -10,21 +10,13 @@ function Hero() {
     >
       <Container>
         <Row className="align-items-center">
-
           {/* Left Side */}
           <Col lg={6} className="text-center text-lg-start">
+            <h4 className="text-info mb-3">Hello, I'm</h4>
 
-            <h4 className="text-info mb-3">
-              Hello, I'm
-            </h4>
+            <h1 className="display-3 fw-bold">Vijay Mane</h1>
 
-            <h1 className="display-3 fw-bold">
-              Vijay Mane
-            </h1>
-
-            <h3 className="text-secondary mb-4">
-              Full Stack Developer
-            </h3>
+            <h3 className="text-secondary mb-4">Full Stack Developer</h3>
 
             <p className="lead">
               I am an MCA student passionate about building modern web
@@ -32,19 +24,23 @@ function Hero() {
               MongoDB.
             </p>
 
-            <Button variant="info" size="lg" className="me-3 mt-3">
+            <Button
+              href="/Vijay_Mane_Resume.pdf"
+              download
+              variant="info"
+              size="lg"
+              className="me-3 mt-3"
+            >
               Download Resume
             </Button>
 
             <Button variant="outline-light" size="lg" className="mt-3">
               Contact Me
             </Button>
-
           </Col>
 
           {/* Right Side */}
           <Col lg={6} className="text-center mt-5 mt-lg-0">
-
             <Image
               src={VijayMane}
               roundedCircle
@@ -56,9 +52,7 @@ function Hero() {
                 objectFit: "cover",
               }}
             />
-
           </Col>
-
         </Row>
       </Container>
     </section>
