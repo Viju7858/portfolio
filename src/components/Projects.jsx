@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 import Dairy from "../assets/Dairy Management.png";
 import VotingApp from "../assets/Voting App.png";
-import YouTubeClone from "../assets/YouTube.png";
+import Youtube from "../assets/YouTube.png";
 
 function Projects() {
   const projects = [
@@ -24,7 +24,7 @@ function Projects() {
       description:
         "A responsive YouTube UI clone developed using React and Bootstrap.",
       tech: ["React", "Bootstrap", "API"],
-      image: YouTubeClone,
+      image: Youtube,
     },
   ];
 
