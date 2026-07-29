@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 import DairyManagement from "../assets/DairyManagement.png";
 import VotingApp from "../assets/VotingApp.png";
-import YouTube from "../assets/YouTube.png";
+import YouTube from "../assets/Youtube.png";
 
 function Projects() {
   const projects = [
