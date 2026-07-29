@@ -2,9 +2,6 @@ import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 import DairyManagement from "../assets/DairyManagement.png";
 import VotingApp from "../assets/VotingApp.png";
 import YouTube from "../assets/YouTube.png";
-import Dairy from "../assets/Dairy Management.png";
-import VotingApp from "../assets/Voting App.png";
-import Youtube from "../assets/YouTube.png";
 
 function Projects() {
   const projects = [
@@ -29,8 +26,6 @@ function Projects() {
       tech: ["React", "Bootstrap", "API"],
 
       image: YouTube,
-
-      image: Youtube,
     },
   ];
 
